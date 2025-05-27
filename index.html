@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a897263890.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chukwuka Animmaku</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="particles-js"></div>
+  <button id="theme-toggle">🌙</button>
+
+   <main class="profile">
+  <h1>
+  Chukwuka Animmaku
+  <button class="speak-button" onclick="speakName()" aria-label="Pronounce name">
+    <i class="fas fa-wave-square"></i>
+  </button>
+</h1>
+
+    <p class="subtitle">IT Support & Web Developer</p>
+    <p class="tagline">Delivering digital support and scalable web solutions with empathy and precision.</p>
+
+
+
+<!-- Password Form -->
+<div id="resume-protected">
+  <div class="resume-access">
+    <input type="password" id="resume-pass" placeholder="Enter password to view resume" />
+    <button onclick="checkPassword()">Submit</button>
+
+    <!-- Info Icon always visible -->
+    <span class="tooltip">
+      <i class="fas fa-info-circle"></i>
+      <span class="tooltip-text">
+        Password Hint: my last name and the year, plus an exclamation mark. "Animmaku2025!"
+      </span>
+    </span>
+  </div>
+
+  <p id="resume-message"></p>
+</div>
+
+<!-- Hidden Resume Button (appears only on correct password) -->
+
+<div id="resume-link" style="display: none; text-align: center;">
+  <a href="resume.pdf" class="resume-link" target="_blank">
+    <i class="fas fa-file-alt"></i> View Resume
+  </a>
+</div>
+
+
+
+
+    
+
+    <div class="socials">
+  <a href="https://github.com/drealchuka" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/chukwuka-animmaku-4510a2260?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAmBZM5RtTDuhQ1nGNdN5fQ%3D%3D" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="mailto:you@example.com" aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+
+   </main>
+
+   <footer class="site-footer">
+  <p>&copy; 2025 Chukwuka Animmaku. All rights reserved.</p>
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
