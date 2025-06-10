@@ -17,26 +17,6 @@ toggle.addEventListener('click', () => {
 
 
 
-function checkPassword() {
-  const input = document.getElementById("resume-pass").value.trim();
-  const message = document.getElementById("resume-message");
-  const correctPassword = "Animmaku2025!"; // your actual password
-  const resumeLink = document.getElementById("resume-link");
-
-  if (input === correctPassword) {
-    // Show the resume link container
-    resumeLink.style.display = "block";
-
-    // Trigger animation
-    resumeLink.style.animation = "fadeSlideUp 0.9s ease forwards";
-
-    // Hide password box
-    document.getElementById("resume-protected").style.display = "none";
-  } else {
-    message.textContent = "❌ Incorrect password. Try again.";
-    message.style.color = "red";
-  }
-}
 
 
 function speakName() {

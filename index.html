@@ -39,31 +39,12 @@
 
 
 
-<!-- Password Form -->
-<div id="resume-protected">
-  <div class="resume-access">
-    <input type="password" id="resume-pass" placeholder="Enter password to view resume" />
-    <button onclick="checkPassword()">Submit</button>
-
-    <!-- Info Icon always visible -->
-    <span class="tooltip">
-      <i class="fas fa-info-circle"></i>
-      <span class="tooltip-text">
-        Password Hint: my last name and the year, plus an exclamation mark. "Animmaku2025!"
-      </span>
-    </span>
-  </div>
-
-  <p id="resume-message"></p>
-</div>
-
-<!-- Hidden Resume Button (appears only on correct password) -->
-
-<div id="resume-link" style="display: none; text-align: center;">
+<div class="resume-access">
   <a href="resume.pdf" class="resume-link" target="_blank">
     <i class="fas fa-file-alt"></i> View Resume
   </a>
 </div>
+
 
 
 
